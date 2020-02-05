@@ -16,6 +16,7 @@ alias mysqldump='mysqldump -u root --add-drop-table';
 
 # Composer:
 
+alias composer='php -d memory_limit=-1 /usr/local/bin/composer'
 alias cda='composer dump-autoload';
 
 
