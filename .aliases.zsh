@@ -30,7 +30,7 @@ alias mage='~/.composer/vendor/bin/mage';
 alias php73="phpv php@7.3";
 alias php74="phpv php";
 
-alias phpunit='vendor/bin/phpunit';
+alias phpunit='php -d memory_limit=-1 vendor/bin/phpunit';
 alias puf='vendor/bin/phpunit --order-by=defects --stop-on-defect';   # Previously failed tests, first
 
 phpv() {
