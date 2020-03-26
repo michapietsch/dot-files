@@ -6,6 +6,7 @@ alias gd='git diff -w';
 alias gl='git log --graph --oneline --all';
 alias gcam='git commit -am';
 alias gcanvm='git commit --no-verify -am';
+alias gcnv='git commit --no-verify';
 
 
 # MySQL:
