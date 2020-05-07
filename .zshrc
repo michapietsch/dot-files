@@ -98,7 +98,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.aliases.zsh
+source ~/.aliases_projects.zsh
 
 # See https://github.com/sindresorhus/pure#getting-started
 autoload -U promptinit; promptinit
 prompt pure
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
